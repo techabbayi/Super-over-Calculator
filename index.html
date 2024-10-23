@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jasmine Spec Runner v2.8.0</title>
+
+  <!-- <link rel="shortcut icon" type="image/png" href="jasmine/jasmine-2.8.0/face.png"> -->
+  <link rel="stylesheet" href="jasmine/jasmine-2.8.0/jasmine.css">
+  <link rel="stylesheet" href="main.css">
+
+  <script src="jasmine/jasmine-2.8.0/jasmine.js"></script>
+  <script src="jasmine/jasmine-2.8.0/jasmine-html.js"></script>
+  <script src="jasmine/jasmine-2.8.0/boot.js"></script>
+
+  <!-- include source files here... -->
+
+  <script src="src/app.js"></script>
+
+  <!-- include spec files here... -->
+  <script src="tests/FunctionsTest.js"></script>
+</head>
+
+<body>
+  <img
+  id="logo"
+  src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-logo.png"
+/>
+<section>
+  <div class="score" id="team1">
+    <h1>IND</h1>
+    <div id="team1-superover" class="balls">
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+    </div>
+    <div class="scoreboard">
+      <span id="score-team1">0</span>
+      <span>/</span>
+      <span id="wickets-team1">0</span>
+    </div>
+  </div>
+  <div class="score" id="team2">
+    <h1>PAK</h1>
+    <div id="team2-superover" class="balls">
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+    </div>
+    <div class="scoreboard">
+      <span id="score-team2">0</span>
+      <span>/</span>
+      <span id="wickets-team2">0</span>
+    </div>
+  </div>
+</section>
+<section id="buttons">
+  <img
+    class="button"
+    id="strike"
+    src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-strike-button.png"
+  />
+  <img
+    class="button"
+    id="reset"
+    src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-reset-button.png"
+  />
+</section>
+
+</body>
+
+</html>
